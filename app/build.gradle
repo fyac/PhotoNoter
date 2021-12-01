@@ -2,11 +2,8 @@ apply plugin: 'com.android.application'
 //apply plugin: 'com.frogermcs.androiddevmetrics'
 //apply from: '../gradle/dex.gradle'
 apply plugin: 'aspect'
-
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
-
+    compileSdkVersion = 25
     defaultConfig {
         applicationId "com.yydcdut.note"
         minSdkVersion rootProject.ext.minSdkVersion
